@@ -1,0 +1,33 @@
+.card {
+    margin: 0px 30px;
+    margin-bottom: 80px;
+    cursor: default;
+}
+.card:hover {
+    opacity: 0.9;
+    /* z-index: 0; */
+}
+.card-img {
+    width: 300px;
+    border-radius: 20px;
+}
+.card-info {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+.card-stats {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card-icon-star {
+    color: rgb(192, 37, 73);
+}
+.card-text {
+    text-align: justify;
+    padding: 5px 20px;
+}
